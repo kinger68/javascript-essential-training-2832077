@@ -52,6 +52,21 @@ const content = `
   
 `;
 
+const headerBar = `
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+`;
+
+const topNav = document.createElement("nav");
+topNav.classList.add("top-navigation")
+const navList = document.createElement("ul");
+navList.innerHTML = headerBar;
+topNav.append(navList);
+
+document.querySelector(".siteheader").append(topNav);
+
 const main = document.querySelector(".maincontent");
 
 const newArticle = document.createElement("article");

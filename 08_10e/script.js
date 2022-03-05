@@ -52,4 +52,4 @@ const tipCalculator = (sum, percentage, locale, currency, printHTML) => {
   printHTML(finalTip);
 };
 
-tipCalculator(29.95, 18, "de-DE", "EUR", printHTML);
+tipCalculator(29.95, 18, "en-US", "USD", printHTML);

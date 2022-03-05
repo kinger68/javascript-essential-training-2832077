@@ -15,7 +15,7 @@ const deskArray = [
   "notebook",
   "headphones",
   "lightbulb",
-  "usb drive",
+  "USB drive",
 ];
 console.log("Original array:", deskArray);
 
@@ -45,3 +45,13 @@ console.log("Original array:", deskArray);
 // let remove = "notebook";
 // deskArray.splice(deskArray.indexOf(remove), 1);
 // console.log(`Array with "${remove}" removed:`, deskArray);
+var numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+numbers.push(6);
+console.log("push(6) : " + numbers);
+numbers.unshift(7);
+console.log("unshift(7) : " + numbers);
+numbers.pop();
+console.log("pop() : " + numbers);
+numbers.shift();
+console.log("shift() " + numbers);
